@@ -1,0 +1,18 @@
+
+<div class="card">
+	<h2 class="card__title">
+		Выбери профессию, узнай свой уровень и получи рекомендации:
+	</h2>
+	<a *ngFor="let professionOne of professionOne" class="card__box">
+		<img class="card__image" src="{{professionOne.imageUrl}}" alt="{{professionOne.name}}">
+		<p class="card__name">{{professionOne.name}}</p>
+	</a>
+	<a *ngFor="let professionTwo of professionTwo" class="card__box">
+		<img class="card__image" src="{{professionTwo.imageUrl}}" alt="{{professionTwo.name}}">
+		<p class="card__name">{{professionTwo.name}}</p>
+	</a>
+	<a *ngFor="let cardMore of cardsMore" class="card__box" href="../cards/cards.component.html">
+		<img class="card__image" src="{{cardMore.imageUrl}}" alt="{{cardMore.name}}">
+		<p class="card__name">{{cardMore.name}}</p>
+	</a>
+</div>
