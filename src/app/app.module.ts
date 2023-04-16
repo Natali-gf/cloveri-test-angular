@@ -8,7 +8,6 @@ import { MainSectionComponent } from './main-section/main-section.component';
 import { ChooseProfessionComponent } from './choose-profession/choose-profession.component';
 import { CardsServise } from './cards.service';
 import { AppRoutingModule } from './app-routing.module';
-import { ContentComponent } from './content/content.component';
 import { HelpButtonComponent } from './help-button/help-button.component';
 import { FooterComponent } from './footer/footer.component';
 
@@ -19,7 +18,6 @@ import { FooterComponent } from './footer/footer.component';
     HeaderComponent,
     MainSectionComponent,
     ChooseProfessionComponent,
-    ContentComponent,
     HelpButtonComponent,
     FooterComponent
   ],
