@@ -1,7 +1,6 @@
 import {Card} from './card';
 
 export const PROFESSIONS: Card[] = [
-	{name: 'Нет моей профессии', imageUrl: '../../assets/images/no_profession.jpg'},
 	{name: 'Frontend-разработчик', imageUrl: '../../assets/images/frontend.jpg'},
 	{name: 'Инженер инфраструктуры, DevOps', imageUrl: '../../assets/images/DevOps.png'},
 	{name: 'PHP-разработчик', imageUrl: '../../assets/images/PHP.png'},
@@ -23,11 +22,12 @@ export const PROFESSIONS: Card[] = [
 	{name: 'UI/UX-дизайнер', imageUrl: '../../assets/images/UXUI.jpg'},
 	{name: 'Project-менеджер', imageUrl: '../../assets/images/project_manager.png'},
 	{name: 'Специалист Data Science', imageUrl: '../../assets/images/datascience.png'},
+	{name: 'Нет моей профессии', imageUrl: '../../assets/images/no_profession.jpg'},
 ]
 
 export const PROFESSION_SECTION: Card[] = [
 	{name: 'Ещё 20+ профессий', imageUrl: '../../assets/images/main_professions.png'},
-	{name: 'Больше возможностей', imageUrl: '../../assets/images/main_possibilities.png'},
+	// {name: 'Больше возможностей', imageUrl: '../../assets/images/main_possibilities.png'},
 ]
 
 export const MAIN_CARDS: Card[] = [

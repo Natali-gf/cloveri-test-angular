@@ -7,10 +7,6 @@
 		align-items: center;
 		margin: 0 30px;
 	}
-
-	// &__logo {
-	// }
-
 	&__navigation {
 		display: flex;
 		gap: 30px;
@@ -52,12 +48,3 @@
 .link-reg {
 	color: green;
 }
-// .background{
-// 	background-image: linear-gradient(rgba(8, 26, 104, 0.7), rgba(3, 101, 182, 0.6)), url(../../assets/images/photo.jpg);
-// 	background-size: cover;
-// 	background-position: center center;
-// 	height: 700px;
-// 	width: 100%;
-// 	position: fixed;
-// 	z-index: -1;
-// }

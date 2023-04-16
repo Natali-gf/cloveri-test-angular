@@ -13,6 +13,9 @@
 	</a>
 	<a *ngFor="let cardMore of cardsMore" class="card__box" href="../cards/cards.component.html">
 		<img class="card__image" src="{{cardMore.imageUrl}}" alt="{{cardMore.name}}">
-		<p class="card__name">{{cardMore.name}}</p>
+		<p class="card__name">{{cardMore.name}} &#8659;</p>
 	</a>
+</div>
+<div class="all-profession">
+	<app-cards></app-cards>
 </div>
